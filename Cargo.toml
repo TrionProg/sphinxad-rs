@@ -1,0 +1,15 @@
+[package]
+name = "sphinxad"
+version = "0.1.0"
+authors = ["trionprog <trionprog@gmail.com>"]
+description = "Sphinxad hight-level wrapper, that allows to record voice from microphone and later recognize speech by pocketsphinx"
+homepage = "https://github.com/TrionProg/sphinxad-rs"
+repository = "https://github.com/TrionProg/sphinxad-rs"
+readme = "README.md"
+keywords = ["sphinx", "cmusphinx", "microphone"]
+license-file = "LICENSE"
+documentation = "https://docs.rs/sphinxad-ad/0.1.0/sphinxad_ad/"
+license = "MIT"
+
+[dependencies]
+sphinxad-sys = "*"
