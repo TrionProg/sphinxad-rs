@@ -12,4 +12,4 @@ documentation = "https://docs.rs/sphinxad-ad/0.1.0/sphinxad_ad/"
 license = "MIT"
 
 [dependencies]
-sphinxad-sys = "*"
+sphinxad-sys = "0.1.1"
