@@ -2,7 +2,7 @@
 name = "sphinxad"
 version = "0.1.0"
 authors = ["trionprog <trionprog@gmail.com>"]
-description = "Sphinxad hight-level wrapper, that allows to record voice from microphone and later recognize speech by pocketsphinx"
+description = "Sphinxad hight-level wrapper, that allows to record voice from microphone and later recognize the speech by pocketsphinx"
 homepage = "https://github.com/TrionProg/sphinxad-rs"
 repository = "https://github.com/TrionProg/sphinxad-rs"
 readme = "README.md"
