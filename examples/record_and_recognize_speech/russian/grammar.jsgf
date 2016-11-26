@@ -1,0 +1,15 @@
+#JSGF V1.0;
+
+grammar russian;
+
+//бредовые фразочки =)
+//грамматику конечно надо писать получше, чтобы, например, учитывались роды, а то выходит "открой главный окно"
+
+<action_verb> = покажи | выведи | открой | закрой;
+<action_noun_nom> = лог  | список | таблицу | окно;
+<action_noun_gen> = лога | списка | таблицы | окна;
+<action_adjective_nom> = главный | полный | главное;
+<action_adjective_gen> = главного;
+
+public <query> = <action> | выход;
+<action>=<action_verb> [мне] [<action_adjective_nom>] <action_noun_nom> [ [<action_adjective_gen>] <action_noun_gen>];

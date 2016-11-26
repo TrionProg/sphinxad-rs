@@ -1,0 +1,8 @@
+[package]
+name = "record_and_write_to_file"
+version = "0.1.0"
+authors = ["trionprog <trionprog@gmail.com>"]
+
+[dependencies]
+sphinxad = "*"
+hound = "*"

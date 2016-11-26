@@ -1,10 +1,3 @@
-//this is example how to record sounds from microphone
-//Add to Cargo.toml
-[dependencies]
-sphinxad = "*"
-hound = "*"
-
-//=========================
 extern crate sphinxad;
 extern crate hound;
 
@@ -108,4 +101,3 @@ fn main(){
         Err( e ) => println!("Error:{:?}",e),
     }
 }
- 

@@ -1,0 +1,10 @@
+#JSGF V1.0;
+
+grammar english;
+
+<action_verb> = GO | SHOW | OPEN | CLOSE;
+<action_noun> = LOG  | LIST | TABLE | WINDOW;
+<action_adjective> = MAIN | FULL;
+
+public <query> = <action> | EXIT;
+<action>=<action_verb> [<action_adjective> | THE ] <action_noun> [ OF [<action_adjective>] <action_noun>];

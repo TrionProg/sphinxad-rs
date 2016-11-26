@@ -1,2 +1,13 @@
 /target
-/Cargo.lock 
+/Cargo.lock
+
+/examples/record_and_recognize_speech/target/
+/examples/record_and_recognize_speech/Cargo.lock
+/examples/record_and_recognize_speech/log.txt
+/examples/record_and_recognize_speech/russian/zero_ru.cd_cont_4000
+/examples/record_and_recognize_speech/english/cmusphinx-en-us-ptm-5.2
+/examples/record_and_recognize_speech/english/vocabulary.dict
+
+/examples/record_and_write_to_file/target/*
+/examples/record_and_write_to_file/Cargo.lock
+/examples/record_and_write_to_file/out.wav

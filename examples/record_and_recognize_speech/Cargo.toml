@@ -1,0 +1,8 @@
+[package]
+name = "record_and_recognize_speech"
+version = "0.1.0"
+authors = ["trionprog <trionprog@gmail.com>"]
+
+[dependencies]
+pocketsphinx = "*"
+sphinxad = "*"
