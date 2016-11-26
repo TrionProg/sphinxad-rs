@@ -4,6 +4,11 @@ Sphinxad hight-level wrapper, that allows to record voice from microphone and la
 Usage
 -----
 
+Cargo.toml
+```
+sphinxad = "*"
+```
+
 You need two libraries to recognize speech:
 * first should record voice from microphone(this [sphinxad-rs](https://github.com/TrionProg/sphinxad-rs))
 * and second should process sound and recognize the speech([pocketsphinx-rs](https://github.com/kriomant/pocketsphinx-rs))
