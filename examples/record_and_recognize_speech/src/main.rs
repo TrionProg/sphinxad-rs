@@ -34,7 +34,7 @@ fn main(){
         "-jsgf", grammar,
         "-dict", vocabulary,
         //"-samprate", "16000",
-        "-logfn", "log.txt" // 2>log.txt
+        "-logfn", "log.txt" // 2>log.txt If you will get panics, remove this line to see log in console
     ]).unwrap();
 
     let decoder = pocketsphinx::PsDecoder::init(psConfig);
